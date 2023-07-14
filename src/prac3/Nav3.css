@@ -1,0 +1,154 @@
+.navp3 {
+    position: fixed;
+    top:0;
+    
+      text-align: center;
+     font-size: medium;
+      background-color: rgb(252, 244, 244);
+      min-height: 3vmax;
+      width: 100%;
+      margin: 1px;
+}
+
+.navp3 div{
+      list-style-type: none;
+      display: inline-flex;
+      margin: 3px;
+      padding: 6px;
+      overflow: hidden;
+      text-align: center;
+      
+}
+
+.navp3 .Assassination{
+      display: inline-flexbox;
+      color: rgb(237, 66, 66);
+}
+
+
+.navp3  .trial-dropdown-content{
+      display: none;
+      position:absolute;
+      box-shadow: 1px 1px 1px;
+      }
+      
+.navp3 .trial-dropdown:hover  .trial-dropdown-content{
+      display: block;
+      color: black;
+}
+
+
+
+
+.nav div :hover {
+      font-style:oblique;
+}
+
+.display {
+      display: block ;
+      width: 100%;
+      position: absolute;
+      background-color: rgb(241, 97, 97);
+      height: 400px;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+
+
+.content1 {
+      
+display: flex;
+      width:initial;
+      height: 10%;
+      padding-right: 10%;
+      padding-top: 5%;
+      padding-bottom: 2%;
+      margin: 20px;
+      margin-top: 40px;
+      
+      border: 2px dashed rgb(82, 81, 81) ;
+
+      border-radius: 10px;
+     
+}
+.content1 .img {
+display:flexbox;
+float: right;
+      height: auto;
+      width: 40%;
+      background-color: black;
+      border:2px solid rgb(124, 133, 129);
+      display: flex;
+      border-radius: 3%;
+  align-self: baseline;
+    
+}
+
+
+.content1 .img  img {
+      border-radius: 2%;
+      position:static;
+       align-self: center;
+       margin-left: 5% ;
+       margin-right: 5%;
+      
+      height:min-content;
+      width: 90%;
+}
+.content2 {
+      
+      width:initial;
+      height:10%;
+      padding-left: 10%;
+      padding-top: 5%;
+      padding-bottom: 2%;
+      margin: 0;
+      
+ 
+     
+}
+.content2 .img {
+display: flex;
+float: left;
+      height: auto;
+      width: 40%;
+      background-color: black;
+      border: 1px solid rgb(124, 133, 129);
+      display: flex;
+      border-radius: 3%;
+  align-self: baseline;
+  
+    
+}
+
+
+.content2 .img  img {
+      border-radius: 2%;
+      position:static;
+       align-self: center;
+       margin-left: 5% ;
+       margin-right: 5%;
+      
+      height:min-content;
+      width: 90%;
+}
+
+
+
+.text {
+      display: flexbox;
+      width: 50%;
+       margin-left: 50px;
+      text-align: center;
+      display: flex;
+      margin: 2vb;
+      padding: 2vmax;
+      font-size: 2vw;
+}
+
+.Heading{
+      left: 30px;
+      color: rgb(228, 171, 86);
+      font: 3vw sans-serif;
+}

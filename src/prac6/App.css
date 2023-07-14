@@ -1,0 +1,16 @@
+.App-p6{
+  top: 0;
+  margin: 0;
+  background-color: rgb(8, 55, 38);
+  height: 100%;
+}
+.my-div
+{
+ 
+  background-image: radial-gradient(rgb(241, 246, 179) 30%, rgb(209, 247, 143) 60%, rgb(163, 254, 143) 80%);
+  border-radius: 5px;
+  width: 90%;
+  margin-left:5%;
+  text-align: center;
+  box-shadow: 2ch;
+}

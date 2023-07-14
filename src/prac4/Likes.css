@@ -1,0 +1,19 @@
+.like h1 {
+      position: fixed;
+      text-align: center;
+     
+      width: 100px;
+      right: 50px;
+      bottom:30px; 
+      background-color: blueviolet;
+      color: azure;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border-radius: 10px;
+      box-shadow: 5px rgba(0, 0, 0, 0.564);
+}
+
+
+.like h1:hover{
+      color: black;
+      background-color: aqua;
+}

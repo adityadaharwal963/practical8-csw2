@@ -1,0 +1,19 @@
+.videobox{
+      position: relative;
+      width: 100%;
+      min-height: 100vb;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: black;
+      
+}
+
+.videobox video{
+      position: absolute;
+     
+      width: 70%;
+      height: 70%;
+      object-fit: cover;
+}

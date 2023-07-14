@@ -1,0 +1,72 @@
+.nav {
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: 1px;
+    padding-right: 200px;
+    padding-left: 20px;
+    
+      text-align: center;
+     font-size: medium;
+      background-color: #c2eeff;
+      min-height: 3vmax;
+    
+}
+
+.nav div{
+      list-style-type: none;
+      display: inline-flex;
+      margin: 3px;
+      padding: 6px;
+      overflow: hidden;
+      text-align: center;
+      float:left ;
+      
+}
+
+.nav .Product{
+      display: inline-flexbox;
+      color: rgb(66, 120, 237);
+}
+
+
+.nav  .trial-dropdown-content{
+      display: none;
+      position:absolute;
+      box-shadow: 1px 1px 1px;
+      }
+      
+.nav .trial-dropdown:hover  .trial-dropdown-content{
+      display: block;
+      color: black;
+}
+
+
+
+
+.nav div :hover {
+      font-style:oblique;
+}
+
+.display {
+      display: block ;
+      width: 100%;
+      position: absolute;
+      background-color: rgb(241, 97, 97);
+      height: 400px;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+
+.nav .drop {
+ height:fit-content;
+ width: auto;
+ max-height: 3vb;
+ max-width: 4vb;
+ float: right;
+ margin-right: 100px;
+}
+.nav .drop img{
+      width: 40px;
+}

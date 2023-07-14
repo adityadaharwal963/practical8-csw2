@@ -1,0 +1,45 @@
+
+.App-p5{
+      top:0;
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      padding: 10%;
+}
+.card1 {
+      background-image: linear-gradient( 45deg,rgba(253, 244, 220, 0.895) 40%,rgb(249, 232, 213) 60%,rgb(251, 219, 209) 80%);
+      width: 50%;
+      height: 500px;
+    
+      margin-left: 15%;
+      border-radius: 2%;
+      border: rgba(0, 0, 0, 0.3);
+}
+
+ .card1 table{
+      border-radius: 5%;
+  height: 100%;
+  padding: 5%;
+  margin-top: 5% ;;
+
+}
+.card1 table input {
+      background-color: rgba(14, 12, 12, 0.933);
+      color: white;
+}
+.card1 table button {
+
+      background-color: rgba(14, 12, 12, 0.933);
+      color: white;
+}
+
+
+.card1 table tr {
+      background-color: rgba(14, 12, 12, 0.933);
+      color: white;
+}
+
+.card1 .title1{
+      font: 30px bolder;
+      color: black;
+}

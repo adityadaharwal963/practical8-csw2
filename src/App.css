@@ -1,0 +1,49 @@
+.vertical-nav{
+  position: fixed;
+  left: 0;
+  width: 10vw;
+  background-color: #f1f1f1;
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+ 
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+li .active {
+  background-color: #34de61f2;
+  color: white;
+}
+
+li .bol:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.display-screen{
+  position: fixed;
+  top:0;
+  
+  margin-left: 10vw;
+  width: 90vw;
+  height:100vh;
+  overflow: scroll;
+ 
+}
+.home h2{
+  color: #000;
+  text-align: left;
+  border: #000 dashed;
+  width: 140px;
+  height: auto;
+}

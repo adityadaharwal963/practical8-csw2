@@ -1,0 +1,43 @@
+.App-p4 {
+  text-align: center;
+  background-color: rgb(14, 51, 83);
+}
+
+.App-logo {
+  
+  border-radius: 19vmin;
+ 
+  height: 19vmin;
+  pointer-events: none;
+}
+
+.Appimg{
+  border: white 2px;
+  border-radius: 55px;
+}
+
+.App-header {
+  background-color: #192846;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.App-p4 .box {
+ 
+  display: flex;
+  width: auto;
+  height: 50vh;
+  padding: 5vh;
+  margin: 20px;
+  justify-content: center;
+  border:  3px solid rgba(0, 0, 0, 0.556);
+  border-radius : 20px; ;
+  background-color: rgba(28, 141, 239, 0.597);
+}

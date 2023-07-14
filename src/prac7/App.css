@@ -1,0 +1,19 @@
+div {
+  text-align: center;
+
+}
+
+.m {
+  background-color: rgba(40, 33, 33, 0.619);
+  margin: 10px;
+  width: 80%;
+  border: 3px black solid;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-left: 10%;
+}
+.App-p7 {
+  margin: 2%;
+  background-image: repeating-linear-gradient(45deg, red , blue );
+  border-radius: 50px;
+}
